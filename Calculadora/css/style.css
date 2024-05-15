@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {/*  */
+    background-color: rgba(108, 200, 234, 0.34);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.titulo {
+    font-size: 4rem;
+    color: rgba(16, 92, 128, 0.897); 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main, .configuration {
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid rgb(187, 172, 172);
+    border-radius: 0.5rem;
+    background-color: rgba(200, 203, 201, 0.637);
+    box-shadow: 2px 2px 15px rgba(13, 1, 44, 0.75);
+}
+
+/* Visores para mostrar los operandos */
+.visor__top, .visor__bottom {
+    background-color: rgba(5, 2, 63, 0.877);
+    border-radius: 0.5rem;
+    color: rgba(255, 255, 255, 0.925);
+    text-align: right;
+    margin:0;
+    color:rgb(112, 234, 248);
+    padding: 0.5rem;
+}
+
+.visor__top {
+    height: 30px;
+    font-size: 2rem;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.visor__bottom {
+    height: 70px;
+    margin-top: 0;
+    font-size: 2.75rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.buttons {
+    margin: 2px;
+}
+
+.buttons__button {
+    height: 70px;
+    width: 95px;
+    margin-top: 3px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    background: #1b98e596;
+    border: 0;
+    border-radius: 0.25rem;
+}
+
+.buttons__button:hover {
+    background: #468CCF;
+}
+
+.buttons__button--color {
+    background-color: rgba(59, 152, 245, 0.87);
+}
+
+.buttons__button--color:hover {
+    background-color: rgba(26, 76, 126, 0.87);
+}
+
+.buttons__button--cero {
+    width: 194px;
+}
+
+.configuration{
+    background-color: rgba(229, 229, 230, 0.5);
+    margin-top:2rem;
+    padding: 0 1rem 1rem;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 25px;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+  border:none;
+}
+
+.configuration__title {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid gray;
+    margin-top: 0;
+  }
+
+/* Colores */
+.colors {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rojo {
+  background-color: tomato;
+}
+
+.verde {
+  background-color: rgb(109, 230, 29);
+}
+
+.azul {
+  background-color: rgb(78, 180, 224);
+}
+
+.amarillo {
+  background-color: rgb(239, 217, 18);
+}
+
+.rosa {
+  background-color: rosybrown;
+}
+
+.morado {
+  background-color: purple;
+}
+
+.blanco {
+  background-color: rgb(255, 255, 255);
+}

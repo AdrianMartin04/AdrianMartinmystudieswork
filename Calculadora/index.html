@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  <title>Calculadora...</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="titulo">Calculadora...</h1>
+    </header>
+
+    <main class="main">
+      <section class="visor">
+        <p class="visor__top" id="visortop"></p>
+        <p class="visor__bottom" id="visorbottom"></p>
+      </section>
+
+      <section class="buttons" id="buttons">
+        <input type="button" class="buttons__button" value="AC">
+        <input type="button" class="buttons__button" value="+/-">
+        <input type="button" class="buttons__button" value="%">
+        <input type="button" class="buttons__button buttons__button--color" value="/">
+        <input type="button" class="buttons__button" value="7">
+        <input type="button" class="buttons__button" value="8">
+        <input type="button" class="buttons__button" value="9">
+        <input type="button" class="buttons__button buttons__button--color" value="*">
+        <input type="button" class="buttons__button" value="4">
+        <input type="button" class="buttons__button" value="5">
+        <input type="button" class="buttons__button" value="6">
+        <input type="button" class="buttons__button buttons__button--color" value="-">
+        <input type="button" class="buttons__button" value="1">
+        <input type="button" class="buttons__button" value="2">
+        <input type="button" class="buttons__button" value="3">
+        <input type="button" class="buttons__button buttons__button--color" value="+">
+        <input type="button" class="buttons__button  buttons__button--cero" value="0">
+        <input type="button" class="buttons__button" value=".">
+        <input type="button" class="buttons__button buttons__button--color" value="=">
+      </section>
+    </main>
+
+    <section class="configuration" id="configuration">
+      <!-- Color Fuente -->
+      <p class="configuration__title">Color Fuente</p>
+      <section class="colors" id="colors">
+        <button class="color rojo"></button>
+        <button class="color verde"></button>
+        <button class="color azul"></button>
+        <button class="color amarillo"></button>
+        <button class="color rosa"></button>
+        <button class="color morado"></button>
+        <button class="color blanco"></button>
+      </section>
+    </section>
+
+    <section class="configuration" id="configuration">
+      <!-- Color Fondo -->
+      <p class="configuration__title">Color Fondo</p>
+      <section class="colors" id="bgcolors">
+        <button class="color rojo"></button>
+        <button class="color verde"></button>
+        <button class="color azul"></button>
+        <button class="color amarillo"></button>
+        <button class="color rosa"></button>
+        <button class="color morado"></button>
+        <button class="color blanco"></button>
+      </section>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
